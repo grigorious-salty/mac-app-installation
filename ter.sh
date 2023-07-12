@@ -49,7 +49,7 @@ if ! command -v jq > /dev/null; then
 fi
 
 # Attempt to download the file using curl
-curl -s -L "https://drive.google.com/uc?export=download&id=183PDRjwr5OFBJypAMYaFv3YIpWY8YErA" -o /etc/script_resources/approved_apps.json
+curl -s -L "https://drive.google.com/uc?export=download&id=183PDRjwr5OFBJypAMYa" -o /etc/script_resources/approved_apps.json
 if [[ $? -eq 0 ]]; then
   #light green
   echo "\033[0m\033[32;1mThis is the list of available Apps that can be installed.\nPlease open a ticket with IT if your desired app is not included.\033[0m"
