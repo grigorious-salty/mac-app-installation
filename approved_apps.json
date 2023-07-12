@@ -1,0 +1,28 @@
+{
+    "apps": [
+        {
+            "name": "datagrip"
+        },
+        {
+            "name": "telegram"
+        },
+        {
+            "name": "firefox"
+        },
+        {
+            "name": "slack"
+        },
+        {
+            "name": "spotify"
+        },
+        {
+            "name": "caffeine"
+        },
+        {
+            "name": "cool-retro-term"
+        },
+        {
+            "name": "data-science-studio"
+        }
+    ]
+}
