@@ -61,7 +61,7 @@ else
 
   # retry download with wget
   for i in {1..5}; do
-    wget -q -O /etc/script_resources/approved_apps.json "https://drive.google.com/uc?export=download&id=183PDRjwr5OFBJypAMYaFv3YIpWY8YErA"
+    wget -q -O /etc/script_resources/approved_apps.json "https://drive.google.com/uc?export=download&id=183PDRjwr5OFBJypAMYa"
     if [[ $? -eq 0 ]]; then
     #light green
       echo "\033[0m\033[32;1mThis is the list of available Apps that can be installed.\nPlease open a ticket with IT if your desired app is not included.\033[0m"
